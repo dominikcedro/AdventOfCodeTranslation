@@ -12,8 +12,6 @@ pairs_dict = {}
 for i in data:
     pairs_dict[i.split(' ')[0]] = i.split(' ')[1]
 
-### Part 1 ###
-
 poker_hands = pairs_dict.keys()
 
 # Create a dictionary to store the poker hands
